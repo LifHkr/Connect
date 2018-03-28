@@ -1,0 +1,13 @@
+-==== Intro ====-
+
+Name:
+ Jerry Bratton
+
+Experience:
+ Over 20 years in wireless telecommunications
+
+Programming Languages Used:
+ Perl, Python, Shell, VBA, VB
+
+Objectives:
+ Data Science, Android App Development, Java

@@ -1,0 +1,62 @@
+
+#### Git Notes ####
+
+
+## Help Command
+
+	$ git help
+		f forward
+		b backwards
+		q quit
+
+
+##Where is Git Config
+
+
+System:
+
+		Linux		/etc/gitconfig
+		Windows		Program Files\Git\etc\gitconfig
+		
+		
+User:
+
+		Linux		~/.gitconfig
+		Windows		$HOME\.gitconfig
+	
+	$ cat .gitconfig	
+		
+
+Project
+
+		my_project/.git/config
+		
+		
+		
+	
+## Set the default Text Editor
+
+https://help.github.com/articles/associating-text-editors-with-git/
+
+git config --global core.editor "C:\Users\LifHkr\AppData\Local\atom\bin\atom.cmd"
+
+
+## Set Colors On for CMD
+
+git config --global color.ui true
+
+
+
+## Setting the Initial Repository
+
+CD to Directory
+
+$ git init
+4 ls -la  # View the New directory Files
+
+
+
+## Commit New Files
+
+$ git add .
+$ git commit -m "Initial Commit"
