@@ -96,5 +96,10 @@ $ git remote -v
 
 ## Upload to the Remote Repository
 
+$ git remote add origin https://github.com/lifhkr/Connect.git
+$ git remote -v
+$ git push origin master
+$ git push -f origin master  # Force It
+
 $ git remote set-url origin https://github.com/lifhkr/california.git
 $ git push -f origin master  or  git push -u origin master
