@@ -1,6 +1,11 @@
 
 #### Git Notes ####
 
+References:
+https://gist.github.com/hofmannsven/6814451
+
+
+
 
 ## Help Command
 
@@ -60,7 +65,19 @@ $ git init
 
 $ git add .   # git add filename
 $ git commit -m "Initial Commit"  # Use comment to provide as much info as possible
+$ git commit -am "Info"  # Updates all files
 
+
+## Remove a Files
+
+$ git rm filename
+$ git commit -m "Deleted File"
+
+
+## Rename a File
+
+$ git mv filename1 filename2
+$ git commit -m "Renamed File"
 
 ## View Status
 
@@ -70,3 +87,14 @@ $ git status
 ## See the Changes that were Made
 
 $ git diff
+$ git diff --staged  # Changes that have not been committed
+$ git diff --color-words filename
+
+## View the Remote Repository Link
+
+$ git remote -v
+
+## Upload to the Remote Repository
+
+$ git remote set-url origin https://github.com/lifhkr/california.git
+$ git push -f origin master  or  git push -u origin master
